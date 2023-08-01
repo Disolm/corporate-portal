@@ -1,0 +1,26 @@
+@import './base.css';
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../styles/fonts/Montserrat/Montserrat-VariableFont_wght.ttf') format('truetype');
+}
+body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    font-family: Montserrat, Verdana, sans-serif;
+
+}
+
+
+
+#app {
+    --default-cover: url('../assets/default-cover.svg');
+    margin: 46px auto;
+    padding: 0 55px;
+}
+
+:root {
+    --bg-url: var(--default-cover);
+
+}
